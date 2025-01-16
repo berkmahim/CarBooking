@@ -12,6 +12,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentatio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarBooking.WebApi", "Presentation\CarBooking.WebApi\CarBooking.WebApi.csproj", "{6722F09E-D685-428F-AB2B-80652B49A782}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarBooking.Application", "Core\CarBooking.Application\CarBooking.Application.csproj", "{817FA99D-6D51-45FD-8C3F-C98AECE34260}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,7 @@ Global
 		{216F986B-5571-4FA3-B209-DEBFD0F7F55D} = {1B18BBAE-556F-4A24-B039-1E228481165D}
 		{A531BABD-5A6C-4EBF-96AF-6BB9A725F758} = {EFF2E83E-A4B0-4436-B3C0-A8D926B2D9D6}
 		{6722F09E-D685-428F-AB2B-80652B49A782} = {1E8C199E-D9F5-4700-84D4-6ED083B4D1C6}
+		{817FA99D-6D51-45FD-8C3F-C98AECE34260} = {1B18BBAE-556F-4A24-B039-1E228481165D}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{216F986B-5571-4FA3-B209-DEBFD0F7F55D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -35,5 +38,9 @@ Global
 		{6722F09E-D685-428F-AB2B-80652B49A782}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6722F09E-D685-428F-AB2B-80652B49A782}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6722F09E-D685-428F-AB2B-80652B49A782}.Release|Any CPU.Build.0 = Release|Any CPU
+		{817FA99D-6D51-45FD-8C3F-C98AECE34260}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{817FA99D-6D51-45FD-8C3F-C98AECE34260}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{817FA99D-6D51-45FD-8C3F-C98AECE34260}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{817FA99D-6D51-45FD-8C3F-C98AECE34260}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

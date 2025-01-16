@@ -20,6 +20,7 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\..\Core\CarBooking.Application\CarBooking.Application.csproj" />
       <ProjectReference Include="..\..\Core\CarBooking.Domain\CarBooking.Domain.csproj" />
     </ItemGroup>
 
