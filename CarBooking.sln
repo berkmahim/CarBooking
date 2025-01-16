@@ -1,0 +1,21 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{1B18BBAE-556F-4A24-B039-1E228481165D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarBooking.Domain", "Core\CarBooking.Domain\CarBooking.Domain.csproj", "{216F986B-5571-4FA3-B209-DEBFD0F7F55D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{216F986B-5571-4FA3-B209-DEBFD0F7F55D} = {1B18BBAE-556F-4A24-B039-1E228481165D}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{216F986B-5571-4FA3-B209-DEBFD0F7F55D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{216F986B-5571-4FA3-B209-DEBFD0F7F55D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{216F986B-5571-4FA3-B209-DEBFD0F7F55D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{216F986B-5571-4FA3-B209-DEBFD0F7F55D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
